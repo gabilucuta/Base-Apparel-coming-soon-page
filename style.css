@@ -1,0 +1,141 @@
+/* ### Primary
+
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+
+### Neutral
+
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+### Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+- Weights: 300, 400, 600 */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans',sans-serif; 
+}
+
+body
+{
+    align-items: center;
+    min-height:100vh;
+}
+
+.leftImage
+{
+    width: 100%;
+    margin-right: 0;
+}
+
+
+
+.row
+{
+    background-color: rgb(248, 249, 241) ;
+    margin: 10%;
+    
+}
+
+.were
+{ 
+    margin-bottom: 0;
+    letter-spacing: 10px;
+    font-size: 45px;
+    font-weight: 300;
+    color : hsl(0, 36%, 70%);
+    
+}
+
+.title
+{
+    font-size: 45px;
+    letter-spacing: 10px;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.first
+{
+    padding: 130px;
+}
+
+.logo
+{
+    position: relative;
+    bottom: 70px;
+}
+
+.myP
+{
+    margin-top: 20px;
+    color : hsl(0, 36%, 70%);
+}
+
+.email
+{
+    width: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    color: pink;
+    border: 0.5px solid pink;
+}
+
+.email:invalid
+{
+    border-color: red;
+}
+
+
+
+.submit
+{
+    position: absolute;
+    left: 640px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 0.5px solid pink;
+    background : linear-gradient(135deg , hsl(0, 25%, 94%), hsl(0, 75%, 68%));
+    box-shadow: 40px;
+    color: white;
+}
+
+
+
+.submit:hover
+{
+    transform: scale(1.1);
+    background: lightpink;
+    box-shadow: 0px 0px 3px ;
+    
+}
+
+.buton
+{
+    position: absolute;
+    left: 600px;
+    top: 565px;
+}
+
+.error
+{
+    color: hsl(0, 93%, 68%);
+    margin-top: 5px;
+    display: none; 
+}
